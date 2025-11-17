@@ -1,3 +1,11 @@
+# Site başlığı ve açıklaması
 title: "Benim Blogum"
-description: "API güvenliği ve web geliştirme yazıları"
-theme: jekyll-theme-cayman
+description: "API güvenliği ve web geliştirme üzerine içerikler"
+
+# Tema ve plugin
+remote_theme: pages-themes/hacker@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+# İsteğe bağlı: Google Analytics eklemek istersen
+# google_analytics: UA-XXXXXXX-X
